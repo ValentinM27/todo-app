@@ -1,0 +1,14 @@
+<div class="card">
+  <div class="title">
+    {{todo?.title}} :
+  </div>
+  <div class="description">
+    {{todo?.content}}
+  </div>
+  <button class="px-5 py-1 font-bold bg-red-600 text-white flex items-center rounded-md delete" (click)="deleteItem()">
+    <div>
+      Supprimer
+    </div>
+    <mat-icon>delete</mat-icon>
+  </button>
+</div>

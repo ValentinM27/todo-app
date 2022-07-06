@@ -1,0 +1,26 @@
+.card {
+  margin-top: 1.4rem;
+  background: rgba(0, 0, 0, .2);
+  padding: 20px;
+  border-radius: 10px;
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .description {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-weight: lighter;
+    font-size: 1.1rem;
+  }
+
+  .delete {
+    margin-top: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+

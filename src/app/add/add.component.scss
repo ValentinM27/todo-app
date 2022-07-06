@@ -1,0 +1,33 @@
+.add-container {
+  .add-form {
+    margin-top: 1.2rem;
+    padding: 8px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+
+    label {
+      font-size: 1.3rem;
+      font-weight: 400;
+    }
+
+    input {
+      padding: 10px;
+      width: 100%;
+      height: 1.4rem;
+      margin-bottom: 1.2rem;
+    }
+
+    textarea {
+      padding: 10px;
+      resize: none;
+      width: 100%;
+      height: 8rem;
+      margin-bottom: 1.4rem;
+    }
+
+    button {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
